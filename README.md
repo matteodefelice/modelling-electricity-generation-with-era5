@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3458548.svg)](https://doi.org/10.5281/zenodo.3458548)
+
 # Modelling renewable electricity generation in Europe with Copernicus ERA5 reanalysis
 
 This repository contains a set of R scripts and the data illustrating the possibility to model with a random forest hourly electricity generation from renewable sources using the latest climate reanalysis from the Copernicus Climate Change Service (C3S). This work was supposed to be part of a scientific paper but then I have opted for a public repository. 
@@ -44,4 +46,5 @@ To run the code you need:
 * the package [`DALEX`](https://modeloriented.github.io/DALEX/), possibly a recent version (I have used the 0.4.4)
 
 ## References
-This code is inspired by the work done during the [C3S ECEM project](https://climate.copernicus.eu/european-climate-energy-mixes) ([see this paper by Troccoli et al.](https://www.adv-sci-res.net/15/191/2018/) )
+This code is inspired by the work done during the [C3S ECEM project](https://climate.copernicus.eu/european-climate-energy-mixes) ([see this paper by Troccoli et al.](https://www.adv-sci-res.net/15/191/2018/) ). This repository can be cited using the [DOI 10.5281/zenodo.3458548](https://doi.org/10.5281/zenodo.3458548)
+
