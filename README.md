@@ -2,6 +2,8 @@
 
 This repository contains a set of R scripts and the data illustrating the possibility to model with a random forest hourly electricity generation from renewable sources using the latest climate reanalysis from the Copernicus Climate Change Service (C3S). This work was supposed to be part of a scientific paper but then I have opted for a public repository. 
 
+The random forests models the hourly generation of run-of-river hydro-power, wind onshore and solar power using six different essential climate variables: runoff (`ro`), snow depth (`sd`), surface solar radiation downwards (`ssrd`), 2-meter temperature (`t2m`), wind speed at 10 meters (`ws10`) and wind speed at 100 meters (`ws100`). 
+
 ## Structure
 
 This repository contains all the code and the data to run from scratch the analysis. The main folder contains all the markdown, while in `src` there is all the R files and the data. The markdown shows the commented code outputs and it has been generated with the powerful Knitr's `spin`. 
