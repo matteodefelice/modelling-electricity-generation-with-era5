@@ -44,4 +44,4 @@ To run the code you need:
 * the package [`DALEX`](https://modeloriented.github.io/DALEX/), possibly a recent version (I have used the 0.4.4)
 
 ## References
-This code is inspired by the work done during the [C3S ECEM project](https://climate.copernicus.eu/european-climate-energy-mixes) and described in [this paper by Troccoli et al.](https://www.adv-sci-res.net/15/191/2018/).
+This code is inspired by the work done during the [C3S ECEM project](https://climate.copernicus.eu/european-climate-energy-mixes) ([see this paper by Troccoli et al.](https://www.adv-sci-res.net/15/191/2018/) )
