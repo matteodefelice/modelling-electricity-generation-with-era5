@@ -15,6 +15,9 @@ There are six scripts in this repository:
 * [05_analysis_response](05_analysis_response.md): defining the impact of each single predictor using DALEX 
 * [055_plot_response](055_plot_response.md): plot of the responses defined in the previous step
 
+## Results
+This random forest-based approach, in spite of its simplicity, leads in many cases to an error between 10%-20% (normalised mean absolute error) for the hourly generation. 
+
 ## Data sources
 
 This work is based on two datasets:
