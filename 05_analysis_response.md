@@ -1,9 +1,4 @@
 
-
-```r
-options(warn=-1)
-```
-
 ## The effect of each input variable
 This script takes advantage of the powerful functions provided by the
 `DALEX` package to identify the "effect" of each variable used as predictor
