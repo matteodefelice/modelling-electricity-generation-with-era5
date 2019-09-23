@@ -18,7 +18,12 @@ There are six scripts in this repository:
 * [055_plot_response](055_plot_response.md): plot of the responses defined in the previous step
 
 ## Results
-This random forest-based approach, in spite of its simplicity, leads in many cases to an error between 10%-20% (normalised mean absolute error) for the hourly generation. 
+This random forest-based approach, in spite of its simplicity, leads in many cases to an error between 10%-20% (normalised mean absolute error) for the hourly generation. For example this is the error using the predictors aggregated at country level (NUTS0), the results improve using smaller aggregations:
+![NMAE_NUTS](figure/errors-summary-NUTS0.png)
+
+Moreover, this data-driven approach could be used to analyse the relationship between meteorological predictors and generations, for example analysing what is the impact of wind speed on the European-wide wind power.
+
+![WIND_POWER_RESPONSE](figure/response-wind-power.png)
 
 ## Data sources
 
