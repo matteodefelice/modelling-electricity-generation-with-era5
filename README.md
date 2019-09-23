@@ -1,10 +1,19 @@
 # Modelling renewable electricity generation in Europe with Copernicus ERA5 reanalysis
 
-This repository contains a set of R scripts and the data illustrating the possibility to model hourly electricity generation from renewable sources using the latest climate reanalysis from the Copernicus Climate Change Service (C3S). This work was supposed to be part of a scientific paper but then I have opted for a public repository. 
+This repository contains a set of R scripts and the data illustrating the possibility to model with a random forest hourly electricity generation from renewable sources using the latest climate reanalysis from the Copernicus Climate Change Service (C3S). This work was supposed to be part of a scientific paper but then I have opted for a public repository. 
 
 ## Structure
 
 This repository contains all the code and the data to run from scratch the analysis. The main folder contains all the markdown, while in `src` there is all the R files and the data. The markdown shows the commented code outputs and it has been generated with the powerful Knitr's `spin`. 
+
+There are six scripts in this repository:
+
+* [01_hyperparameters_tuning](01_hyperparameters_tuning.md): tuning of the hyperparameters of the random forest
+* [02_compute_errors](02_compute_errors.md): calculation of the modelling errors
+* [03_plot_errors](03_plot_errors.md): plotting the errors
+* [04_analysis_importance](04_analysis_importance.md): defining which are the most important variables
+* [05_analysis_response](05_analysis_response.md): defining the impact of each single predictor using DALEX 
+* [055_plot_response](055_plot_response.md): plot of the responses defined in the previous step
 
 ## Data sources
 
