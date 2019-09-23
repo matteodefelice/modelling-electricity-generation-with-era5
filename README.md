@@ -4,7 +4,7 @@ This repository contains a set of R scripts and the data illustrating the possib
 
 ## Structure
 
-This repository contains all the code and the data to run from scratch the analysis. The main folder contains all the markdown, while in `src` there is all the R files and the data.
+This repository contains all the code and the data to run from scratch the analysis. The main folder contains all the markdown, while in `src` there is all the R files and the data. The markdown shows the commented code outputs and it has been generated with the powerful Knitr's `spin`. 
 
 ## Data sources
 
