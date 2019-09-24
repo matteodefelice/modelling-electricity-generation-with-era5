@@ -48,3 +48,7 @@ To run the code you need:
 ## References
 This code is inspired by the work done during the [C3S ECEM project](https://climate.copernicus.eu/european-climate-energy-mixes) ([see this paper by Troccoli et al.](https://www.adv-sci-res.net/15/191/2018/) ). This repository can be cited using the [DOI 10.5281/zenodo.3458548](https://doi.org/10.5281/zenodo.3458548)
 
+## Contacts
+
+If you need further information, additional code or data, you can [contact me](http://matteodefelice.name) or you can create an Issue in the repository.
+
